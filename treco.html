@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+</head>
+
+<body>
+
+    
+    <script>
+    const biblioteca = [
+    {
+        titulo: "Harry Potter e a Pedra Filosofal",
+        autor: "J.K. Rowling",
+        ano: 1997,
+        emprestado: false,
+        categorias: ["Fantasia", "Ficção"],
+        revisoes: [
+            {
+                comentario: "Adorei este livro! Uma história envolvente.",
+                avaliacao: 5
+            },
+            {
+                comentario: "Uma leitura maravilhosa para todas as idades.",
+                avaliacao: 5
+            }
+        ]
+    },
+    {
+        titulo: "1984",
+        autor: "George Orwell",
+        ano: 1949,
+        emprestado: true,
+        categorias: ["Ficção Científica", "Distopia"],
+        revisoes: [
+            {
+                comentario: "Um livro que faz refletir sobre a sociedade.",
+                avaliacao: 4
+            },
+            {
+                comentario: "Incrivelmente atual, mesmo após tantos anos.",
+                avaliacao: 5
+            }
+        ]
+    },
+];
+
+console.log(biblioteca[0].titulo); // Saída: "Harry Potter e a Pedra Filosofal"
+console.log(biblioteca[1].categorias); // Saída: "Ficção Científica", "Distopia"
+console.log(biblioteca[0].revisoes[1].comentario); // Saída: "Uma leitura maravilhosa para todas as idades."
+
+
+    </script>
+</body>
+
+</html>

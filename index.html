@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+
+<body>
+    <script>
+        let idade = 17; //preencha com a sua idade
+        const nome = `Dã`; //preencha com o seu nome
+        var altura = 1.77; //preencha com a sua altura
+
+        if (idade < 18) {
+            console.log(`${nome} pode acessar`);
+        } else {
+            console.log(`${nome} não pode acessar`);
+        }
+
+        while(idade < 18){
+            idade++;
+            altura += 0.05;
+        }
+        console.log(`Altura aos 18 anos: ${altura}`)
+    </script>
+</body>
+
+</html>

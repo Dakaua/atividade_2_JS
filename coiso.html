@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function descontarPorc(preco, desconto) {
+            let valorDesconto = preco * (desconto / 100);
+            let precoFinal = preco - valorDesconto;
+
+            console.log(`VALOR DA PIZZA R$ ${preco}`)
+            console.log(`VALOR DO DESCONTO R$ ${desconto}`)
+            return precoFinal;
+        }
+
+        console.log(`VALOR DA COMPRA R$ ${descontarPorc(40, 20)}`)
+
+
+
+
+
+    </script>
+</body>
+
+</html>
